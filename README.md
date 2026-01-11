@@ -9,8 +9,11 @@
 
 # COSAS A HACER (ESTO SE VA A BORRAR)
 no olvidar subir apk
+
 para el zip que la profe quiere, solo incluir el readme y scripts (creo, ns si le importa ponerlo todo junto y ya)
+
 hay carpetas creadas pero github las ignora pq no tienen nada, se las digo para q sepan
+
 [media](Media)
 [Presentación](Presentación)
 [Proyecto_Unity](Proyecto_Unity)
@@ -60,9 +63,11 @@ un gif del gameplay principal. luego pondremos un gameplay bien
 
 ## Estructura de los scripts
 poner tipo
+
 demonios:
   - este script
   - y este
+
 campesino:
   - ahora este
   - tal
