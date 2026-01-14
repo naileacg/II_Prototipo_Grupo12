@@ -19,6 +19,8 @@ hay carpetas creadas pero github las ignora pq no tienen nada, se las digo para 
 [Proyecto_Unity](Proyecto_Unity)
 [Scripts](Scripts)
 
+no olvidar comentar el codigo
+
 ## Índice
 
 - [Presentación del juego](#presentación-del-juego)
@@ -53,14 +55,11 @@ describirlo más a fondo, con las mecanicas de
 
 ### Diseño de escenario
 
-**(ESTO TENGO QUE MEJORAR LA REDACCIÓN)**
+En un principio dudamos entre utilizar un mapa ya creado de la Asset Store o fabricarlo nosotros mismos. Tras barajar las opciones, nos decantamos por la segunda. Los mapas que vimos tenían demasiadas inclinaciones y no encajaban bien con la distribución que habíamos planteado. Por ello, aunque supusiera más tiempo, decidimos utilizar el asset [Pandazole - Nature Environment Low poly Pack](https://assetstore.unity.com/packages/3d/environments/pandazole-nature-environment-low-poly-pack-212621), que incluye piezas de tierra y agua que permiten construir el mapa poco a poco. Al habernos dividido el trabajo desde el inicio, pudimos implementarlo sin problemas. Además, nos permitió darle exactamente la forma y los detalles que queríamos, por lo que consideramos que el tiempo invertido mereció la pena.
 
+El gameplay principal se desarrolla en una zona pequeña del mapa, donde se encuentran la casa y el jardín. El resto del mapa es principalmente ambiental y, aunque no tiene una función jugable directa, lo decoramos con árboles, arbustos y otros elementos propios de un bosque para mejorar la inmersión. También incluimos un río y una cueva con fines decorativos, así como un portal que encaja con la historia del juego, ya que es el lugar del que provienen los demonios.
 
-En un principio dudamos si utilizar un mapa ya creado de la asset store o si fabricarlo nosotros mismos. Tras barajar las opciones, nos decantamos por la segunda opción. Esto es porque todos los mapas que vimos tenían demasiadas inclinaciones, no encajaban tan bien con la distribución que habíamos manejado... Por ende, aunque nos fuese a tomar más tiempo, decidimos utilizar el asset Pandazole - Nature Environment Low poly Pack. Este incluye "trocitos" de tierra/agua y con ello podemos ir montando el mapa poco a poco. Debido a que nos dividimos desde el principio, nos dio tiempo a poder implementarlo sin problemas. Además de eso contamos con la ventaja de que tiene exactamente la forma y los detalles que queríamos, con lo que creemos que mereció la pena invertir ese tiempo
-
-El principal gameplay realmente sucede en una pequeña parte del mapa, donde está la casa y el jardín. El resto del mapa es totalmente ambiental, y aunque no tiene utilidad real lo decoramos con árboles, arbustos y otros elementos que encontraríamos en un bosque. Además, incluimos un río y una cueva decorativos. También tenemos un portal que para nuestra historia nos viene bien, ya que en el mundo de nuestro juego, de ahí provienen los demonios.
-
-En cuanto al cielo, usamos un asset para hacerlo más bonito y de dibujos, siendo este del paquete Fantasy Skybox FREE.
+En cuanto al cielo, utilizamos un asset para darle un estilo más visual y de dibujos, perteneciente al paquete [Fantasy Skybox FREE](https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353).
 
 ### Controles
 cardboard, mandos de switch.. etc
@@ -70,7 +69,8 @@ un gif del gameplay principal. luego pondremos un gameplay bien
 
 ## Cuestiones importantes para el uso
 es para android
-la versión de unity que usamos fue x
+
+**Versión de Unity utilizada:** 6000.2.6f2
 
 ## Aspectos destacables
 
@@ -87,33 +87,130 @@ campesino:
 
 ## Hitos de programación logrados
 
+decir que en parte las cosas q hicimos en la asignatura fue la base... como raycast, eventos, delegados, sensores...
+
+Speech Recognizer
+
+efectos de sonido, musica,
+
+uso de sensores
+
+uso de eventos para controlar las mecánicas
+
+menú de compra de muebles
+
+sistema de monedas por matar a los demonios
+
+creación del mapa
+
+utilización de vr
+
+manejo de fisicas usando rigidbody, colliders...
+
 ## Elementos externos
-los asset básicamente
 
-https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353 cielo bonito
+- [Pandazole - Nature Environment Low poly Pack](https://assetstore.unity.com/packages/3d/environments/pandazole-nature-environment-low-poly-pack-212621). Asset principal utilizado para el desarrollo del entorno.
 
-https://assetstore.unity.com/packages/3d/environments/historic/modular-medieval-lanterns-85527 para lamparas en la casa
+- [Level Design Modular Starter Pack](https://assetstore.unity.com/packages/3d/props/level-design-modular-starter-pack-288972). Paquete utilizado para montar la casa del personaje principal.
 
-https://assetstore.unity.com/packages/3d/environments/fantasy/3d-low-poly-magical-forest-323631 para el portal
+- [Fantasy Skybox FREE](https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353). Usado para sustituir el cielo por defecto de Unity por uno con estilo más de dibujos.
 
-https://assetstore.unity.com/packages/3d/props/level-design-modular-starter-pack-288972 para hacer la casa entera
+- [Modular Medieval Lanterns](https://assetstore.unity.com/packages/3d/environments/historic/modular-medieval-lanterns-85527). Utilizado para las lámparas de la casa.
 
-https://assetstore.unity.com/packages/3d/environments/pandazole-nature-environment-low-poly-pack-212621 para el entorno
+- [3D Low Poly Magical Forest](https://assetstore.unity.com/packages/3d/environments/fantasy/3d-low-poly-magical-forest-323631). Usado para el portal de los demonios.
 
-https://opengameart.org/ pagina para sacar texturas
-
+- [OpenGameArt](https://opengameart.org/). Página utilizada para la búsqueda de texturas.
 
 ## Sensores
 
+giroscopio 100%
+
 ## Acta de acuerdos del grupo
-Nos hemos organizado a través de reniones en Discord prácticamente diarias donde nos poníamos en conjunto los avances que habíamos hecho, además de debatir diferentes ideas y manteniendo un contacto constante.
+
+Al inicio del proyecto realizamos varias reuniones en Discord para definir los aspectos principales del juego, como el concepto general, las mecánicas principales y el enfoque del desarrollo. Durante estas reuniones debatimos distintas ideas, descartamos algunas y reformulamos otras hasta llegar a una base común clara.
+
+A partir de ahí, establecimos una distribución inicial de tareas que consideramos equitativa para comenzar el desarrollo. Esta organización nos permitió trabajar en paralelo, aunque se fue adaptando con el tiempo según el progreso de cada uno. En todo momento mantuvimos reuniones frecuentes y un contacto constante para compartir avances, resolver dudas y apoyarnos mutuamente cuando alguien terminaba antes su parte.
+
+La distribución principal de tareas fue la siguiente:
+
+- **Alejandro**
+  - Diseño e implementación de los enemigos.
+
+- **Nailea**
+  - Creación del escenario.
+
+- **Sara**
+  - Diseño e implementación de las interacciones con el aldeano y el catálogo de objetos.
+
+- **Abian**
+  - Diseño e implementación de la mecánica de las plantas.
+
+Todos participamos en la escritura del README, especialmente en las secciones relacionadas con el trabajo realizado por cada uno.
 
 ## Checklist de recomendaciones de diseño de aplicaciones de RV
+
+aqui seria eliminar los q no cumplimos xd
+
+Mantener siempre una velocidad de movimiento constante (sin aceleraciones).
+
+Dejar que el usuario inicie la acción voluntariamente en lugar de que empiece sola.
+
+El usuario debe tener siempre el control del movimiento para anticiparse.
+
+Anclar visualmente al usuario sentado usando referencias como cabinas o sillas.
+
+Mantener el seguimiento de cabeza (Head Tracking) siempre activo para objetos y UI.
+
+Desvanecer la pantalla a negro/color antes de perder el tracking o al cargar escena.
+
+Usar rotaciones de 3 grados de libertad preferiblemente sobre 1 grado.
+
+Evitar cambios bruscos de brillo (de oscuro a claro) para no molestar a los ojos.
+
+La experiencia debe comenzar solo cuando el usuario confirme con un clic.
+
+Colocar los controles de interfaz (UI) dentro del campo de visión inicial.
+
+Actualizar la posición de la UI si el usuario se mueve para que la siga viendo.
+
+Usar retícula solo para objetivos pequeños o al acercarse a ellos.
+
+Separar suficientemente los botones para evitar errores de selección.
+
+Resaltar visualmente (hover/luz) el punto de interacción al mirar.
+
+Usar Audio Espacial para que el sonido localice la posición de los objetos.
+
+Mantener la latencia de respuesta por debajo de los 20 milisegundos.
+
+Evitar colocar objetos con apariencia interactiva que no se puedan coger.
+
+Representar manos estilizadas (cartoon/robot) en lugar de manos humanas realistas.
+
+No representar el cuerpo o brazos del usuario (solo las manos).
+
+Cuidar la escala de los objetos para que coincida con la realidad.
+
+Evitar obligar al usuario a mirar más de 60º hacia arriba.
+
+Evitar obligar al usuario a mirar más de 40º hacia abajo.
+
+Colocar el contenido cómodo entre los 0.5m y los 20m de distancia.
+
+Evitar acciones físicas peligrosas en el mundo real (caminar mucho, agacharse rápido).
+
+Marcar visualmente el área de juego si se requiere movimiento real.
 
 ## Enlaces de interés
 
 ## Posibles mejoras
 nos faltó tiempo, queríamos implementar taltal
+
+poner mas plantas
+
+incluir un modo historia
+
+aumentar el tamaño del mapa
 
 ## Ejecución del juego (extendido)
 aquí iría un gameplay to wapo subido a youtube y narrado por el mismísimo vegetta777
