@@ -95,19 +95,15 @@ El juego está desarrollado para **Android**, habrá que descargar el apk que se
 
 ## Aspectos destacables
 
-- Hemos escogido los **asset*** cuidando en todo momento el estilo *Low Poly*, de manera que el estilo del juego es constante.
-
+- Hemos escogido los **asset** cuidando en todo momento el estilo *Low Poly*, de manera que el estilo del juego es constante.
 - Se han **animado** el prefab de los demonios, que previamente venía sin ningún movimiento. 
-
 - Contamos con **menú de inicio**, donde podemos seleccionar cuando queramos empezar a jugar o si preferimos salir.
-
 - Además, también tenemos una **pantalla de Game Over**. Si los demonios atacan todas nuestras plantas, moriremos y el juego nos permitirá reiniciar o salir del juego. Consideramos que esto es un aspecto muy positivo ya que no termina la partida de forma abrupta, sino que podemos continuar las veces que queramos.
-
 - Incluimos una variedad de **música y efectos de sonido** personalizados para cada momento. El bosque tiene un sonido ambiente, la pantalla de game over una música tétrica, el portal hace sonido... 
 
 ## Estructura de los scripts
 
-Menús:
+- Menús:
   - GameOverManager()
   - MenuManager()
   - VRMainMenuController()
@@ -133,15 +129,10 @@ Entre otros, como el uso de raycast, delegados, sensores...
 ## Elementos externos
 
 - [Pandazole - Nature Environment Low poly Pack](https://assetstore.unity.com/packages/3d/environments/pandazole-nature-environment-low-poly-pack-212621). Asset principal utilizado para el desarrollo del entorno.
-
 - [Level Design Modular Starter Pack](https://assetstore.unity.com/packages/3d/props/level-design-modular-starter-pack-288972). Paquete utilizado para montar la casa del personaje principal.
-
 - [Modular Medieval Lanterns](https://assetstore.unity.com/packages/3d/environments/historic/modular-medieval-lanterns-85527). Utilizado para las lámparas de la casa.
-
 - [3D Low Poly Magical Forest](https://assetstore.unity.com/packages/3d/environments/fantasy/3d-low-poly-magical-forest-323631). Usado para el portal de los demonios.
-
 - [Minimalist Demon](https://assetstore.unity.com/packages/3d/characters/minimalist-demon-255613). Asset de los demonios.
-
 - [Pandazole - Home interior low poly pack](https://assetstore.unity.com/packages/3d/props/interior/pandazole-home-interior-low-poly-pack-203033). Paquete de los muebles de la casa.
 
 
@@ -159,13 +150,10 @@ La distribución principal de tareas fue la siguiente:
 
 - **Alejandro**
   - Diseño e implementación de los enemigos.
-
 - **Nailea**
   - Creación del escenario y los menús.
-
 - **Sara**
   - Diseño e implementación del catálogo de objetos.
-
 - **Abian**
   - Diseño e implementación de la mecánica de las plantas.
 
@@ -177,7 +165,7 @@ aqui seria eliminar los q no cumplimos xd
 
 Mantener siempre una velocidad de movimiento constante (sin aceleraciones).
 
-Dejar que el usuario inicie la acción voluntariamente en lugar de que empiece sola.
+- Dejar que el usuario inicie la acción voluntariamente en lugar de que empiece sola.
 
 El usuario debe tener siempre el control del movimiento para anticiparse.
 
