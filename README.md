@@ -21,6 +21,8 @@ hay carpetas creadas pero github las ignora pq no tienen nada, se las digo para 
 
 no olvidar comentar el codigo
 
+no olvidar la presentación (8 minutos asi que veloces xd). 2 cada uno
+
 ## Índice
 
 - [Presentación del juego](#presentación-del-juego)
@@ -119,7 +121,11 @@ manejo de fisicas usando rigidbody, colliders...
 
 - [3D Low Poly Magical Forest](https://assetstore.unity.com/packages/3d/environments/fantasy/3d-low-poly-magical-forest-323631). Usado para el portal de los demonios.
 
+- [Minimalist Demon](https://assetstore.unity.com/packages/3d/characters/minimalist-demon-255613). Asset de los demonios.
+
 - [OpenGameArt](https://opengameart.org/). Página utilizada para la búsqueda de texturas.
+
+- [Nature Landscapes Free Pixel Art](https://free-game-assets.itch.io/nature-landscapes-free-pixel-art). Para el diseño de la pantalla de inicio.
 
 ## Sensores
 
@@ -211,6 +217,8 @@ poner mas plantas
 incluir un modo historia
 
 aumentar el tamaño del mapa
+
+poder colocar los muebles donde tu quieras
 
 ## Ejecución del juego (extendido)
 aquí iría un gameplay to wapo subido a youtube y narrado por el mismísimo vegetta777
