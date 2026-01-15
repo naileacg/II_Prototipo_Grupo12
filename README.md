@@ -1,4 +1,4 @@
-# Nombre Que Aún No Tenemos
+# Garden of Doom
 ## Proyecto final Interfaces Inteligentes
 ### Desarrollado por
 
@@ -22,6 +22,8 @@ hay carpetas creadas pero github las ignora pq no tienen nada, se las digo para 
 no olvidar comentar el codigo
 
 no olvidar la presentación (8 minutos asi que veloces xd). 2 cada uno
+
+![garden-of-doom](Media/garden-of-doom.png)
 
 ## Índice
 
@@ -47,13 +49,28 @@ no olvidar la presentación (8 minutos asi que veloces xd). 2 cada uno
 ## Presentación del juego
 
 ### Descripción
-aqui literal describir el juego tipo introducción
+
+**Garden of Doom** es nuestro proyecto para la asignatura de **Interfaces Inteligentes**, en el que desarrollamos un prototipo de videojuego de Realidad Virtual utilizando la herramienta Unity3D para dispositivos Android.
+
+En este juego encarnamos a un aldeano que vive tranquilamente en una pequeña casa en mitad del bosque. Sin embargo, algo irrumpe en su pacífica vida: se ha abierto un portal a otra dimensión, una dimensión demoníaca. Los demonios que emergen de ella tienen una extraña afición: quieren destruir nuestro jardín.
+
+El objetivo del juego será, por tanto, proteger y mantener nuestro jardín, plantar nuevas plantas y evitar que los demonios las destruyan. Para ello, deberemos eliminar a los demonios, que son muy tímidos y mueren mediante el contacto visual.
+
+Cada vez que derrotamos a uno de estos demonios, obtenemos monedas. Con ellas podremos acceder al **catálogo de objetos**, donde comprar muebles para decorar nuestra vivienda y, poco a poco, recuperar la calma de la vida rural.
+
+De este modo, presentamos Garden of Doom como una bonita y encantadora fusión entre un mundo adorable y colorido, y la amenaza constante de un imaginario demoníaco.
 
 ### Mecánicas
-describirlo más a fondo, con las mecanicas de 
 
-- los demonios atacando a las plantas
-- el campesino que nos vende muebles
+El juego se desarrolla en un entorno de Realidad Virtual en el que el jugador interactúa principalmente mediante la mirada, aprovechando las posibilidades de control propias de dispositivos **VR con Cardboard**.
+
+- Los demonios aparecen a través de un portal y se desplazan por el escenario con el objetivo de alcanzar las plantas del jardín. Una vez llegan a ellas, comienzan a dañarlas hasta destruirlas si no se actúa a tiempo. El jugador debe estar atento al entorno y reaccionar rápidamente para evitar la pérdida de plantas.
+
+- Los demonios son criaturas tímidas que mueren al ser observadas directamente. El jugador debe fijar la mirada sobre ellos durante un breve periodo de tiempo para eliminarlos. Esta mecánica se basa en el uso de una retícula central de Cardboard.
+
+- Cada demonio eliminado otorga al jugador una cierta cantidad de monedas.
+
+- Mediante el catálogo de objetos, el jugador puede gastar las monedas obtenidas para adquirir muebles para la casa.
 
 ### Diseño de escenario
 
@@ -61,53 +78,57 @@ En un principio dudamos entre utilizar un mapa ya creado de la Asset Store o fab
 
 El gameplay principal se desarrolla en una zona pequeña del mapa, donde se encuentran la casa y el jardín. El resto del mapa es principalmente ambiental y, aunque no tiene una función jugable directa, lo decoramos con árboles, arbustos y otros elementos propios de un bosque para mejorar la inmersión. También incluimos un río y una cueva con fines decorativos, así como un portal que encaja con la historia del juego, ya que es el lugar del que provienen los demonios.
 
-En cuanto al cielo, utilizamos un asset para darle un estilo más visual y de dibujos, perteneciente al paquete [Fantasy Skybox FREE](https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353).
-
 ### Controles
-cardboard, mandos de switch.. etc
+Como ya comentamos, principalmente utilizamos las gafas Cardboard para la mayor parte del gameplay.
+
+![Gafas](Media/Cardboard.png)
+
+Además, con un mando *inserte mando*, nuestro personaje se puede mover por el mundo.
 
 ### GIF demo
-un gif del gameplay principal. luego pondremos un gameplay bien
+
 
 ## Cuestiones importantes para el uso
-es para android
+El juego está desarrollado para **Android**, habrá que descargar el apk que se encuentra en este repositorio e instalarlo. Únicamente será necesario utilizar las gafas Cardboard.
 
 **Versión de Unity utilizada:** 6000.2.6f2
 
 ## Aspectos destacables
 
+- Hemos escogido los **asset*** cuidando en todo momento el estilo *Low Poly*, de manera que el estilo del juego es constante.
+
+- Se han **animado** el prefab de los demonios, que previamente venía sin ningún movimiento. 
+
+- Contamos con **menú de inicio**, donde podemos seleccionar cuando queramos empezar a jugar o si preferimos salir.
+
+- Además, también tenemos una **pantalla de Game Over**. Si los demonios atacan todas nuestras plantas, moriremos y el juego nos permitirá reiniciar o salir del juego. Consideramos que esto es un aspecto muy positivo ya que no termina la partida de forma abrupta, sino que podemos continuar las veces que queramos.
+
+- Incluimos una variedad de **música y efectos de sonido** personalizados para cada momento. El bosque tiene un sonido ambiente, la pantalla de game over una música tétrica, el portal hace sonido... 
+
 ## Estructura de los scripts
-poner tipo
 
-demonios:
-  - este script
-  - y este
+Menús:
+  - GameOverManager()
+  - MenuManager()
+  - VRMainMenuController()
 
-campesino:
-  - ahora este
-  - tal
+no olvidar enlazarlos
 
 ## Hitos de programación logrados
 
-decir que en parte las cosas q hicimos en la asignatura fue la base... como raycast, eventos, delegados, sensores...
+Hemos conseguido desarrollar este juego gracias a las prácticas que hicimos en la asignatura de Interfaces Inteligentes. Hemos tenido que aprender cosas nuevas, pero la base la teníamos y la mayoría de cosas nos sonaban. Podemos destacar:
 
-Speech Recognizer
+- Uso de eventos para controlar las mecánicas.
+- Creación del mapa utilizando la Asset Store.
+- Sistema de monedas al matar los enemigos.
+- Utilización de VR (con Cardboard).
+- Manejo de físicas utilizando Rigidbody, colliders...
+- Optimización del código para que el móvil pueda ejecutarlo sin problemas.
+- Uso del componente Audio Source para incluir música y efectos de sonido.
+- Menú de compra de muebles.
+- Creación de menús de inicio y game over con botones.
 
-efectos de sonido, musica,
-
-uso de sensores
-
-uso de eventos para controlar las mecánicas
-
-menú de compra de muebles
-
-sistema de monedas por matar a los demonios
-
-creación del mapa
-
-utilización de vr
-
-manejo de fisicas usando rigidbody, colliders...
+Entre otros, como el uso de raycast, delegados, sensores...
 
 ## Elementos externos
 
@@ -115,21 +136,18 @@ manejo de fisicas usando rigidbody, colliders...
 
 - [Level Design Modular Starter Pack](https://assetstore.unity.com/packages/3d/props/level-design-modular-starter-pack-288972). Paquete utilizado para montar la casa del personaje principal.
 
-- [Fantasy Skybox FREE](https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353). Usado para sustituir el cielo por defecto de Unity por uno con estilo más de dibujos.
-
 - [Modular Medieval Lanterns](https://assetstore.unity.com/packages/3d/environments/historic/modular-medieval-lanterns-85527). Utilizado para las lámparas de la casa.
 
 - [3D Low Poly Magical Forest](https://assetstore.unity.com/packages/3d/environments/fantasy/3d-low-poly-magical-forest-323631). Usado para el portal de los demonios.
 
 - [Minimalist Demon](https://assetstore.unity.com/packages/3d/characters/minimalist-demon-255613). Asset de los demonios.
 
-- [OpenGameArt](https://opengameart.org/). Página utilizada para la búsqueda de texturas.
+- [Pandazole - Home interior low poly pack](https://assetstore.unity.com/packages/3d/props/interior/pandazole-home-interior-low-poly-pack-203033). Paquete de los muebles de la casa.
 
-- [Nature Landscapes Free Pixel Art](https://free-game-assets.itch.io/nature-landscapes-free-pixel-art). Para el diseño de la pantalla de inicio.
 
 ## Sensores
 
-giroscopio 100%
+Al utilizar VR, nuestro juego hace uso del **giroscopio** y el **acelerómetro**.
 
 ## Acta de acuerdos del grupo
 
@@ -143,10 +161,10 @@ La distribución principal de tareas fue la siguiente:
   - Diseño e implementación de los enemigos.
 
 - **Nailea**
-  - Creación del escenario.
+  - Creación del escenario y los menús.
 
 - **Sara**
-  - Diseño e implementación de las interacciones con el aldeano y el catálogo de objetos.
+  - Diseño e implementación del catálogo de objetos.
 
 - **Abian**
   - Diseño e implementación de la mecánica de las plantas.
@@ -205,20 +223,24 @@ Colocar el contenido cómodo entre los 0.5m y los 20m de distancia.
 
 Evitar acciones físicas peligrosas en el mundo real (caminar mucho, agacharse rápido).
 
-Marcar visualmente el área de juego si se requiere movimiento real.
-
 ## Enlaces de interés
 
+- [Mixamo](https://www.mixamo.com/). Página que utilizamos para hacer las animaciones. 
+
+- [OpenGameArt](https://opengameart.org/). Página utilizada para la búsqueda de texturas.
+
+- [Nature Landscapes Free Pixel Art](https://free-game-assets.itch.io/nature-landscapes-free-pixel-art). Para el diseño de la pantalla de inicio.
+
 ## Posibles mejoras
-nos faltó tiempo, queríamos implementar taltal
 
-poner mas plantas
+Nuestro principal enemigo durante el desarrollo fue el tiempo. En un principio, pensamos hacer un juego mucho más ambicioso, con más mecánicas y mayor personalización, pero preferimos centrarnos en lo importante. Alguna de nuestras ideas en caso de continuar con el juego serían:
 
-incluir un modo historia
-
-aumentar el tamaño del mapa
-
-poder colocar los muebles donde tu quieras
+- Implementar los comandos por voz.
+- En lugar de utilizar un catálogo de objetos, tendríamos un mercader que nos ofrecería los muebles. Además, este sería el personaje principal que nos cuenta el tutorial, y con el que haríamos la interacción por voz.
+- Colocar los muebles donde el jugador queira.
+- Más tipos de plantas.
+- Incluir un modo historia contando por qué se ha abierto este portal.
+- Aumentar el tamaño del mapa.
 
 ## Ejecución del juego (extendido)
 aquí iría un gameplay to wapo subido a youtube y narrado por el mismísimo vegetta777
