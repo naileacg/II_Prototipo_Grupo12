@@ -79,11 +79,14 @@ En un principio dudamos entre utilizar un mapa ya creado de la Asset Store o fab
 El gameplay principal se desarrolla en una zona pequeña del mapa, donde se encuentran la casa y el jardín. El resto del mapa es principalmente ambiental y, aunque no tiene una función jugable directa, lo decoramos con árboles, arbustos y otros elementos propios de un bosque para mejorar la inmersión. También incluimos un río y una cueva con fines decorativos, así como un portal que encaja con la historia del juego, ya que es el lugar del que provienen los demonios.
 
 ### Controles
-Como ya comentamos, principalmente utilizamos las gafas Cardboard para la mayor parte del gameplay.
+Como ya comentamos, principalmente utilizamos las gafas Cardboard para la mayor parte del gameplay. Para poder seleccionar los botones o matar los demonios, solamente debemos mirar con la retícula.
 
 ![Gafas](Media/Cardboard.png)
 
-Además, con un mando *inserte mando*, nuestro personaje se puede mover por el mundo.
+
+Además, con un mando de Switch, nuestro personaje se puede mover por el mundo gracias a los joystick.
+
+![Switch](Media/switch.jpg)
 
 ### GIF demo
 
