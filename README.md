@@ -168,15 +168,13 @@ aqui seria eliminar los q no cumplimos xd
 
 Mantener siempre una velocidad de movimiento constante (sin aceleraciones).
 
-- Dejar que el usuario inicie la acción voluntariamente en lugar de que empiece sola.
+Dejar que el usuario inicie la acción voluntariamente en lugar de que empiece sola.
 
 El usuario debe tener siempre el control del movimiento para anticiparse.
 
 Anclar visualmente al usuario sentado usando referencias como cabinas o sillas.
 
 Mantener el seguimiento de cabeza (Head Tracking) siempre activo para objetos y UI.
-
-Desvanecer la pantalla a negro/color antes de perder el tracking o al cargar escena.
 
 Usar rotaciones de 3 grados de libertad preferiblemente sobre 1 grado.
 
@@ -199,10 +197,6 @@ Usar Audio Espacial para que el sonido localice la posición de los objetos.
 Mantener la latencia de respuesta por debajo de los 20 milisegundos.
 
 Evitar colocar objetos con apariencia interactiva que no se puedan coger.
-
-Representar manos estilizadas (cartoon/robot) en lugar de manos humanas realistas.
-
-No representar el cuerpo o brazos del usuario (solo las manos).
 
 Cuidar la escala de los objetos para que coincida con la realidad.
 
