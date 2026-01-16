@@ -40,7 +40,7 @@ En este juego encarnamos a un aldeano que vive tranquilamente en una pequeña ca
 
 El objetivo del juego será, por tanto, proteger y mantener nuestro jardín, plantar nuevas plantas y evitar que los demonios las destruyan. Para ello, deberemos eliminar a los demonios, que son muy tímidos y mueren mediante el contacto visual.
 
-Cada vez que derrotamos a uno de estos demonios, obtenemos monedas. Con ellas podremos acceder al **catálogo de objetos**, donde comprar muebles para decorar nuestra vivienda y, poco a poco, recuperar la calma de la vida rural.
+Cada vez que derrotamos a uno de estos demonios, obtenemos monedas y, poco a poco, recuperar la calma de la vida rural.
 
 De este modo, presentamos Garden of Doom como una bonita y encantadora fusión entre un mundo adorable y colorido, y la amenaza constante de un imaginario demoníaco.
 
@@ -53,8 +53,6 @@ El juego se desarrolla en un entorno de Realidad Virtual en el que el jugador in
 - Los demonios son criaturas tímidas que mueren al ser observadas directamente. El jugador debe fijar la mirada sobre ellos durante un breve periodo de tiempo para eliminarlos. Esta mecánica se basa en el uso de una retícula central de Cardboard.
 
 - Cada demonio eliminado otorga al jugador una cierta cantidad de monedas.
-
-- Mediante el catálogo de objetos, el jugador puede gastar las monedas obtenidas para adquirir muebles para la casa.
 
 ### Diseño de escenario
 
@@ -110,7 +108,6 @@ Hemos conseguido desarrollar este juego gracias a las prácticas que hicimos en 
 - Manejo de físicas utilizando Rigidbody, colliders...
 - Optimización del código para que el móvil pueda ejecutarlo sin problemas.
 - Uso del componente Audio Source para incluir música y efectos de sonido.
-- Menú de compra de muebles.
 - Creación de menús de inicio y game over con botones.
 
 Entre otros, como el uso de raycast, delegados, sensores...
@@ -122,7 +119,6 @@ Entre otros, como el uso de raycast, delegados, sensores...
 - [Modular Medieval Lanterns](https://assetstore.unity.com/packages/3d/environments/historic/modular-medieval-lanterns-85527). Utilizado para las lámparas de la casa.
 - [3D Low Poly Magical Forest](https://assetstore.unity.com/packages/3d/environments/fantasy/3d-low-poly-magical-forest-323631). Usado para el portal de los demonios.
 - [Minimalist Demon](https://assetstore.unity.com/packages/3d/characters/minimalist-demon-255613). Asset de los demonios.
-- [Pandazole - Home interior low poly pack](https://assetstore.unity.com/packages/3d/props/interior/pandazole-home-interior-low-poly-pack-203033). Paquete de los muebles de la casa.
 
 ## Sensores
 
@@ -184,6 +180,7 @@ Todos participamos en la escritura del README, especialmente en las secciones re
 Nuestro principal enemigo durante el desarrollo fue el tiempo. En un principio, pensamos hacer un juego mucho más ambicioso, con más mecánicas y mayor personalización, pero preferimos centrarnos en lo importante. Alguna de nuestras ideas en caso de continuar con el juego serían:
 
 - Implementar los comandos por voz.
+- Implementar la tienda para poder comprar tanto muebles como plantas.
 - En lugar de utilizar un catálogo de objetos, tendríamos un mercader que nos ofrecería los muebles. Además, este sería el personaje principal que nos cuenta el tutorial, y con el que haríamos la interacción por voz.
 - Colocar los muebles donde el jugador queira.
 - Más tipos de plantas.
