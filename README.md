@@ -37,9 +37,7 @@
 
 En este juego encarnamos a un aldeano que vive tranquilamente en una pequeña casa en mitad del bosque. Sin embargo, algo irrumpe en su pacífica vida: se ha abierto un portal a otra dimensión, una dimensión demoníaca. Los demonios que emergen de ella tienen una extraña afición: quieren destruir nuestro jardín.
 
-El objetivo del juego será, por tanto, proteger y mantener nuestro jardín, plantar nuevas plantas y evitar que los demonios las destruyan. Para ello, deberemos eliminar a los demonios, que son muy tímidos y mueren mediante el contacto visual.
-
-Cada vez que derrotamos a uno de estos demonios obtenemos monedas, y poco a poco recuperaremos la calma de la vida rural.
+El objetivo del juego será, por tanto, proteger y mantener nuestro jardín, plantar nuevas plantas y evitar que los demonios las destruyan. Para ello, deberemos eliminar a los demonios, que son muy tímidos y mueren mediante el contacto visual. Cada vez que derrotamos a uno de estos demonios obtenemos monedas, y poco a poco recuperaremos la calma de la vida rural.
 
 De este modo, presentamos Garden of Doom como una bonita y encantadora fusión entre un mundo adorable y colorido, y la amenaza constante de un imaginario demoníaco.
 
@@ -89,6 +87,39 @@ El juego está desarrollado para **Android**, habrá que descargar el apk que se
 - Incluimos una variedad de **música y efectos de sonido** personalizados para cada momento. El bosque tiene un sonido ambiente, la pantalla de game over una música tétrica, el portal hace sonido... 
 - Además, también tenemos una **pantalla de Game Over**. Si los demonios atacan todas nuestras plantas, moriremos y el juego nos permitirá reiniciar o salir del juego. Consideramos que esto es un aspecto muy positivo ya que no termina la partida de forma abrupta, sino que podemos continuar las veces que queramos.
 ![game-over](Media/game-over.png)
+
+## Estructura de los scripts
+
+- Menús:
+  - [GameOverManager](Scripts/GameOverManager.cs)
+  - [MenuManager](Scripts/MenuManager.cs)
+  - [VRMainMenuController](Scripts/VRMainMenuController.cs)
+
+- Demonios:
+  - [Spawner](Scripts/Spawner.cs)
+  - [MoveToCenter](Scripts/MoveToCenter.cs)
+  - [CubeDamagable](Scripts/CubeDamagable.cs)
+  - [CubeReward](Scripts/CubeReward.cs)
+  - [Collectible](Scripts/Collectible.cs)
+  - [CubeDeathReporter](Scripts/CubeDeathReporter.cs)
+  - [CentralPoint](Scripts/CentralPoint.cs)
+
+- Managers:
+  - [PlantsManager](Scripts/PlantsManager.cs)
+  - [PlantsManagerTeste](Scripts/PlantsManagerTeste.cs)
+  - [ScoreManager](Scripts/ScoreManager.cs)
+  - [RoundManager](Scripts/RoundManager.cs)
+
+- Core:
+  - [IDamageable](Scripts/IDamageable.cs)
+
+- Plantas:
+  - [PlantController](Scripts/PlantController.cs)
+  - [PlantStats](Scripts/PlantStats.cs)
+  - [AreaAttackStrategy](Scripts/AreaAttackStrategy.cs)
+  - [MeleeAttackStrategy](Scripts/MeleeAttackStrategy.cs)
+  - [PlantStrategy](Scripts/PlantStrategy.cs)
+
 
 ## Hitos de programación logrados
 
