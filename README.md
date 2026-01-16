@@ -19,7 +19,6 @@
   - [GIF demo](#gif-demo)
 - [Cuestiones importantes para el uso](#cuestiones-importantes-para-el-uso)
 - [Aspectos destacables](#aspectos-destacables)
-- [Estructura de los scripts](#estructura-de-los-scripts)
 - [Hitos de programación logrados](#hitos-de-programación-logrados)
 - [Elementos externos](#elementos-externos)
 - [Sensores](#sensores)
@@ -90,13 +89,6 @@ El juego está desarrollado para **Android**, habrá que descargar el apk que se
 - Incluimos una variedad de **música y efectos de sonido** personalizados para cada momento. El bosque tiene un sonido ambiente, la pantalla de game over una música tétrica, el portal hace sonido... 
 - Además, también tenemos una **pantalla de Game Over**. Si los demonios atacan todas nuestras plantas, moriremos y el juego nos permitirá reiniciar o salir del juego. Consideramos que esto es un aspecto muy positivo ya que no termina la partida de forma abrupta, sino que podemos continuar las veces que queramos.
 ![game-over](Media/game-over.png)
-
-## Estructura de los scripts
-
-- Menús:
-  - [GameOverManager()](Scripts/Menu/GameOverManager.cs)
-  - [MenuManager()](Scripts/Menu/MenuManager.cs)
-  - [VRMainMenuController()](Scripts/Menu/VRMainMenuController.cs)
 
 ## Hitos de programación logrados
 
