@@ -7,15 +7,6 @@
 - Sara Darias Sánchez
 - Abián Santana Ledesma
 
-# COSAS A HACER (ESTO SE VA A BORRAR)
-no olvidar subir apk
-
-para el zip que la profe quiere, solo incluir el readme y scripts (creo, ns si le importa ponerlo todo junto y ya)
-
-no olvidar enlazar los script
-
-no olvidar comentar el codigo
-
 ![garden-of-doom](Media/garden-of-doom.png)
 
 ## Índice
