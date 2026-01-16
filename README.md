@@ -12,12 +12,7 @@ no olvidar subir apk
 
 para el zip que la profe quiere, solo incluir el readme y scripts (creo, ns si le importa ponerlo todo junto y ya)
 
-hay carpetas creadas pero github las ignora pq no tienen nada, se las digo para q sepan
-
-[media](Media)
-[Presentación](Presentación)
-[Proyecto_Unity](Proyecto_Unity)
-[Scripts](Scripts)
+no olvidar enlazar los script
 
 no olvidar comentar el codigo
 
@@ -83,7 +78,6 @@ Como ya comentamos, principalmente utilizamos las gafas Cardboard para la mayor 
 
 ![Gafas](Media/Cardboard.png)
 
-
 Además, con un mando de Switch, nuestro personaje se puede mover por el mundo gracias a los joystick.
 
 ![Switch](Media/switch.jpg)
@@ -111,8 +105,6 @@ El juego está desarrollado para **Android**, habrá que descargar el apk que se
   - MenuManager()
   - VRMainMenuController()
 
-no olvidar enlazarlos
-
 ## Hitos de programación logrados
 
 Hemos conseguido desarrollar este juego gracias a las prácticas que hicimos en la asignatura de Interfaces Inteligentes. Hemos tenido que aprender cosas nuevas, pero la base la teníamos y la mayoría de cosas nos sonaban. Podemos destacar:
@@ -137,7 +129,6 @@ Entre otros, como el uso de raycast, delegados, sensores...
 - [3D Low Poly Magical Forest](https://assetstore.unity.com/packages/3d/environments/fantasy/3d-low-poly-magical-forest-323631). Usado para el portal de los demonios.
 - [Minimalist Demon](https://assetstore.unity.com/packages/3d/characters/minimalist-demon-255613). Asset de los demonios.
 - [Pandazole - Home interior low poly pack](https://assetstore.unity.com/packages/3d/props/interior/pandazole-home-interior-low-poly-pack-203033). Paquete de los muebles de la casa.
-
 
 ## Sensores
 
@@ -164,56 +155,32 @@ Todos participamos en la escritura del README, especialmente en las secciones re
 
 ## Checklist de recomendaciones de diseño de aplicaciones de RV
 
-aqui seria eliminar los q no cumplimos xd
-
-Mantener siempre una velocidad de movimiento constante (sin aceleraciones).
-
-Dejar que el usuario inicie la acción voluntariamente en lugar de que empiece sola.
-
-El usuario debe tener siempre el control del movimiento para anticiparse.
-
-Anclar visualmente al usuario sentado usando referencias como cabinas o sillas.
-
-Mantener el seguimiento de cabeza (Head Tracking) siempre activo para objetos y UI.
-
-Usar rotaciones de 3 grados de libertad preferiblemente sobre 1 grado.
-
-Evitar cambios bruscos de brillo (de oscuro a claro) para no molestar a los ojos.
-
-La experiencia debe comenzar solo cuando el usuario confirme con un clic.
-
-Colocar los controles de interfaz (UI) dentro del campo de visión inicial.
-
-Actualizar la posición de la UI si el usuario se mueve para que la siga viendo.
-
-Usar retícula solo para objetivos pequeños o al acercarse a ellos.
-
-Separar suficientemente los botones para evitar errores de selección.
-
-Resaltar visualmente (hover/luz) el punto de interacción al mirar.
-
-Usar Audio Espacial para que el sonido localice la posición de los objetos.
-
-Mantener la latencia de respuesta por debajo de los 20 milisegundos.
-
-Evitar colocar objetos con apariencia interactiva que no se puedan coger.
-
-Cuidar la escala de los objetos para que coincida con la realidad.
-
-Evitar obligar al usuario a mirar más de 60º hacia arriba.
-
-Evitar obligar al usuario a mirar más de 40º hacia abajo.
-
-Colocar el contenido cómodo entre los 0.5m y los 20m de distancia.
-
-Evitar acciones físicas peligrosas en el mundo real (caminar mucho, agacharse rápido).
+- Mantener siempre una velocidad de movimiento constante (sin aceleraciones) ✓ 
+- Dejar que el usuario inicie la acción voluntariamente en lugar de que empiece sola ✓ 
+- El usuario debe tener siempre el control del movimiento para anticiparse ✓ 
+- Anclar visualmente al usuario sentado usando referencias como cabinas o sillas ✓ 
+- Mantener el seguimiento de cabeza (Head Tracking) siempre activo para objetos y UI ✓ 
+- Usar rotaciones de 3 grados de libertad preferiblemente sobre 1 grado ✓ 
+- Evitar cambios bruscos de brillo (de oscuro a claro) para no molestar a los ojos ✓ 
+- La experiencia debe comenzar solo cuando el usuario confirme con un clic ✓ 
+- Colocar los controles de interfaz (UI) dentro del campo de visión inicial ✓ 
+- Actualizar la posición de la UI si el usuario se mueve para que la siga viendo ✓ 
+- Usar retícula solo para objetivos pequeños o al acercarse a ellos ✓ 
+- Separar suficientemente los botones para evitar errores de selección ✓ 
+- Resaltar visualmente (hover/luz) el punto de interacción al mirar ✓ 
+- Usar Audio Espacial para que el sonido localice la posición de los objetos ✓ 
+- Mantener la latencia de respuesta por debajo de los 20 milisegundos ✓ 
+- Evitar colocar objetos con apariencia interactiva que no se puedan coger ✓ 
+- Cuidar la escala de los objetos para que coincida con la realidad ✓ 
+- Evitar obligar al usuario a mirar más de 60º hacia arriba ✓ 
+- Evitar obligar al usuario a mirar más de 40º hacia abajo ✓ 
+- Colocar el contenido cómodo entre los 0.5m y los 20m de distancia ✓ 
+- Evitar acciones físicas peligrosas en el mundo real (caminar mucho, agacharse rápido) ✓ 
 
 ## Enlaces de interés
 
 - [Mixamo](https://www.mixamo.com/). Página que utilizamos para hacer las animaciones. 
-
 - [OpenGameArt](https://opengameart.org/). Página utilizada para la búsqueda de texturas.
-
 - [Nature Landscapes Free Pixel Art](https://free-game-assets.itch.io/nature-landscapes-free-pixel-art). Para el diseño de la pantalla de inicio.
 
 ## Posibles mejoras
