@@ -41,6 +41,12 @@ El objetivo del juego será, por tanto, proteger y mantener nuestro jardín, pla
 
 De este modo, presentamos Garden of Doom como una bonita y encantadora fusión entre un mundo adorable y colorido, y la amenaza constante de un imaginario demoníaco.
 
+### Instalación y configuración del proyecto
+Para poder instalarlo en el móvil solamente hay que descargar e instalar el apk  
+En el caso de querer abrirlo mediante el unitypackage, es necesario hacer alguns pasos antes:
+- Instalar el [XR Plugin Management](https://github.com/googlevr/cardboard-xr-plugin.git)
+- Tener hechas las configuraciones de [Cardboard de Google](https://developers.google.com/cardboard/develop/unity/quickstart?hl=es-419)
+  
 ### Mecánicas
 
 El juego se desarrolla en un entorno de Realidad Virtual en el que el jugador interactúa principalmente mediante la mirada, aprovechando las posibilidades de control propias de dispositivos **VR con Cardboard**.
