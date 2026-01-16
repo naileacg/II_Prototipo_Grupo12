@@ -150,6 +150,8 @@ La distribución principal de tareas fue la siguiente:
   - Diseño e implementación del catálogo de objetos.
 - **Abian**
   - Diseño e implementación de la mecánica de las plantas.
+- **Grupo**
+  - Cohesión de los distintos módulos del proyecto.
 
 Todos participamos en la escritura del README, especialmente en las secciones relacionadas con el trabajo realizado por cada uno.
 
