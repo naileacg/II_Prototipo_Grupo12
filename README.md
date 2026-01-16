@@ -40,12 +40,6 @@ En este juego encarnamos a un aldeano que vive tranquilamente en una pequeña ca
 El objetivo del juego será, por tanto, proteger y mantener nuestro jardín, plantar nuevas plantas y evitar que los demonios las destruyan. Para ello, deberemos eliminar a los demonios, que son muy tímidos y mueren mediante el contacto visual. Cada vez que derrotamos a uno de estos demonios obtenemos monedas, y poco a poco recuperaremos la calma de la vida rural.
 
 De este modo, presentamos Garden of Doom como una bonita y encantadora fusión entre un mundo adorable y colorido, y la amenaza constante de un imaginario demoníaco.
-
-### Instalación y configuración del proyecto
-Para poder instalarlo en el móvil solamente hay que descargar e instalar el apk  
-En el caso de querer abrirlo mediante el unitypackage, es necesario hacer alguns pasos antes:
-- Instalar el [XR Plugin Management](https://github.com/googlevr/cardboard-xr-plugin.git)
-- Tener hechas las configuraciones de [Cardboard de Google](https://developers.google.com/cardboard/develop/unity/quickstart?hl=es-419)
   
 ### Mecánicas
 
@@ -82,7 +76,9 @@ https://github.com/user-attachments/assets/13f43147-f1db-47d6-885e-976ecdcf0387
 
 ## Cuestiones importantes para el uso
 El juego está desarrollado para **Android**, habrá que descargar el apk que se encuentra en este repositorio e instalarlo. Únicamente será necesario utilizar las gafas Cardboard.
-
+En el caso de querer abrirlo mediante el unitypackage, es necesario hacer algunos pasos antes:
+- Instalar el [XR Plugin Management](https://github.com/googlevr/cardboard-xr-plugin.git)
+- Tener hechas las configuraciones de [Cardboard de Google](https://developers.google.com/cardboard/develop/unity/quickstart?hl=es-419)
 **Versión de Unity utilizada:** 6000.2.6f2
 
 ## Aspectos destacables
