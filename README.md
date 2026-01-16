@@ -191,6 +191,7 @@ Nuestro principal enemigo durante el desarrollo fue el tiempo. En un principio, 
 - En lugar de utilizar un catálogo de objetos, tendríamos un mercader que nos ofrecería los muebles. Además, este sería el personaje principal que nos cuenta el tutorial, y con el que haríamos la interacción por voz.
 - Colocar los muebles donde el jugador queira.
 - Más tipos de plantas.
+- Más tipos de demonios.
 - Incluir un modo historia contando por qué se ha abierto este portal.
 - Aumentar el tamaño del mapa.
 
