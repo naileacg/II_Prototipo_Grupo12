@@ -201,6 +201,3 @@ Nuestro principal enemigo durante el desarrollo fue el tiempo. En un principio, 
 - Más tipos de demonios.
 - Incluir un modo historia contando por qué se ha abierto este portal.
 - Aumentar el tamaño del mapa.
-
-## Ejecución del juego (extendido)
-aquí iría un gameplay to wapo subido a youtube y narrado por el mismísimo vegetta777
