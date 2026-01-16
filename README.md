@@ -40,7 +40,7 @@ En este juego encarnamos a un aldeano que vive tranquilamente en una pequeña ca
 
 El objetivo del juego será, por tanto, proteger y mantener nuestro jardín, plantar nuevas plantas y evitar que los demonios las destruyan. Para ello, deberemos eliminar a los demonios, que son muy tímidos y mueren mediante el contacto visual.
 
-Cada vez que derrotamos a uno de estos demonios, obtenemos monedas y, poco a poco, recuperar la calma de la vida rural.
+Cada vez que derrotamos a uno de estos demonios obtenemos monedas, y poco a poco recuperaremos la calma de la vida rural.
 
 De este modo, presentamos Garden of Doom como una bonita y encantadora fusión entre un mundo adorable y colorido, y la amenaza constante de un imaginario demoníaco.
 
@@ -87,8 +87,9 @@ El juego está desarrollado para **Android**, habrá que descargar el apk que se
 - Hemos escogido los **asset** cuidando en todo momento el estilo *Low Poly*, de manera que el estilo del juego es constante.
 - Se han **animado** el prefab de los demonios, que previamente venía sin ningún movimiento. 
 - Contamos con **menú de inicio**, donde podemos seleccionar cuando queramos empezar a jugar o si preferimos salir.
-- Además, también tenemos una **pantalla de Game Over**. Si los demonios atacan todas nuestras plantas, moriremos y el juego nos permitirá reiniciar o salir del juego. Consideramos que esto es un aspecto muy positivo ya que no termina la partida de forma abrupta, sino que podemos continuar las veces que queramos.
 - Incluimos una variedad de **música y efectos de sonido** personalizados para cada momento. El bosque tiene un sonido ambiente, la pantalla de game over una música tétrica, el portal hace sonido... 
+- Además, también tenemos una **pantalla de Game Over**. Si los demonios atacan todas nuestras plantas, moriremos y el juego nos permitirá reiniciar o salir del juego. Consideramos que esto es un aspecto muy positivo ya que no termina la partida de forma abrupta, sino que podemos continuar las veces que queramos.
+![game-over](Media/game-over.png)
 
 ## Estructura de los scripts
 
