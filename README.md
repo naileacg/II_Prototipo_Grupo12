@@ -71,7 +71,11 @@ El juego se desarrolla en un entorno de Realidad Virtual en el que el jugador in
 
 En un principio dudamos entre utilizar un mapa ya creado de la Asset Store o fabricarlo nosotros mismos. Tras barajar las opciones, nos decantamos por la segunda. Los mapas que vimos tenían demasiadas inclinaciones y no encajaban bien con la distribución que habíamos planteado. Por ello, aunque supusiera más tiempo, decidimos utilizar el asset [Pandazole - Nature Environment Low poly Pack](https://assetstore.unity.com/packages/3d/environments/pandazole-nature-environment-low-poly-pack-212621), que incluye piezas de tierra y agua que permiten construir el mapa poco a poco. Al habernos dividido el trabajo desde el inicio, pudimos implementarlo sin problemas. Además, nos permitió darle exactamente la forma y los detalles que queríamos, por lo que consideramos que el tiempo invertido mereció la pena.
 
+![escenario](Media/escenario.png)
+
 El gameplay principal se desarrolla en una zona pequeña del mapa, donde se encuentran la casa y el jardín. El resto del mapa es principalmente ambiental y, aunque no tiene una función jugable directa, lo decoramos con árboles, arbustos y otros elementos propios de un bosque para mejorar la inmersión. También incluimos un río y una cueva con fines decorativos, así como un portal que encaja con la historia del juego, ya que es el lugar del que provienen los demonios.
+
+![casa](Media/casa.png)
 
 ### Controles
 Como ya comentamos, principalmente utilizamos las gafas Cardboard para la mayor parte del gameplay. Para poder seleccionar los botones o matar los demonios, solamente debemos mirar con la retícula.
