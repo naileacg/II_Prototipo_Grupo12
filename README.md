@@ -101,9 +101,9 @@ El juego está desarrollado para **Android**, habrá que descargar el apk que se
 ## Estructura de los scripts
 
 - Menús:
-  - GameOverManager()
-  - MenuManager()
-  - VRMainMenuController()
+  - [GameOverManager()](Scripts/Menu/GameOverManager.cs)
+  - [MenuManager()](Scripts/Menu/MenuManager.cs)
+  - [VRMainMenuController()](Scripts/Menu/VRMainMenuController.cs)
 
 ## Hitos de programación logrados
 
