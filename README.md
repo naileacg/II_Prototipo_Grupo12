@@ -88,6 +88,7 @@ Además, con un mando de Switch, nuestro personaje se puede mover por el mundo g
 
 ### GIF demo
 
+https://github.com/user-attachments/assets/13f43147-f1db-47d6-885e-976ecdcf0387
 
 ## Cuestiones importantes para el uso
 El juego está desarrollado para **Android**, habrá que descargar el apk que se encuentra en este repositorio e instalarlo. Únicamente será necesario utilizar las gafas Cardboard.
