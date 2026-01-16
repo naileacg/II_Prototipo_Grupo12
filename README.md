@@ -16,8 +16,6 @@ no olvidar enlazar los script
 
 no olvidar comentar el codigo
 
-no olvidar la presentación (8 minutos asi que veloces xd). 2 cada uno
-
 ![garden-of-doom](Media/garden-of-doom.png)
 
 ## Índice
